@@ -1,0 +1,30 @@
+body{
+    background: #D4E8FF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{  
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    background: green;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+    font-size: larger;
+}
+.increment{
+    background: red;
+}
+button:hover{
+    background: #165081;
+}
+@media(min-width: 600px){
+    .container {
+        flex-direction: column;;
+    }
+}
